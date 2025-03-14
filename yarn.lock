@@ -1124,6 +1124,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@bscswap/contracts@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@bscswap/contracts/-/contracts-1.0.2.tgz#c6d639a43018bec808be02004c6a103b923fd604"
+  integrity sha512-/tJ/GviHfCqzGAkO2W2YkDkWNgcySueHfjlqhbXAA1EmOAhIqHr0IbT7PJpE2/dkegEnuv3moCCl2hndK8dHRA==
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -2307,6 +2312,19 @@
     dom-accessibility-api "^0.4.6"
     pretty-format "^25.5.0"
 
+"@trigonevm/dexsdk@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@trigonevm/dexsdk/-/dexsdk-1.0.0.tgz#7d4d3fd2933ee57d420666842713e0c2712c5c4d"
+  integrity sha512-s49MAdMXgdEf0W//UOSIB8UQ8j88ZB1FAxBPa1PE1hMdokf/D+kC2nvEXtAA0+tSQTC3GfLlXP8r58sn6IyxQg==
+  dependencies:
+    "@bscswap/contracts" "1.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@types/aria-query@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@types/aria-query/-/aria-query-4.2.0.tgz#14264692a9d6e2fa4db3df5e56e94b5e25647ac0"
@@ -2713,19 +2731,6 @@
   resolved "https://registry.yarnpkg.com/@uniswap/merkle-distributor/-/merkle-distributor-1.0.1.tgz#dc3d911f65a860fc3f0cae074bdcd08ed6a27a4d"
   integrity sha512-5gDiTI5hrXIh5UWTrxKYjw30QQDnpl8ckDSpefldNenDlYO1RKkdUYMYpvrqGi2r7YzLYTlO6+TDlNs6O7hDRw==
 
-"@uniswap/sdk@3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk/-/sdk-3.0.3.tgz#8201c7c72215d0030cb99acc7e661eff895c18a9"
-  integrity sha512-t4s8bvzaCFSiqD2qfXIm3rWhbdnXp+QjD3/mRaeVDHK7zWevs6RGEb1ohMiNgOCTZANvBayb4j8p+XFdnMBadQ==
-  dependencies:
-    "@uniswap/v2-core" "^1.0.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
 "@uniswap/token-lists@^1.0.0-beta.17":
   version "1.0.0-beta.17"
   resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.17.tgz#a861fe96a0f3de91b01eae05dec05a6a2018b38e"
@@ -2735,11 +2740,6 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.0.tgz#e0fab91a7d53e8cafb5326ae4ca18351116b0844"
   integrity sha512-BJiXrBGnN8mti7saW49MXwxDBRFiWemGetE58q8zgfnPPzQKq55ADltEILqOt6VFZ22kVeVKbF8gVd8aY3l7pA==
-
-"@uniswap/v2-core@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
-  integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
 "@uniswap/v2-periphery@^1.1.0-beta.0":
   version "1.1.0-beta.0"

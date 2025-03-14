@@ -1,4 +1,4 @@
-import { ChainId } from '@uniswap/sdk'
+import { ChainId } from '@trigonevm/dexsdk'
 import { createStore, Store } from 'redux'
 import { addPopup, ApplicationModal, removePopup, setOpenModal, updateBlockNumber } from './actions'
 import reducer, { ApplicationState } from './reducer'
